@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johannesboyne/node-dxf-to-png.git"
+  },
   "devDependencies": {
     "tape": "1.0.2"
   },
@@ -22,7 +25,7 @@
   "license": "BSD",
   "dependencies": {
     "canvas": "~1.0.2",
-    "node-dxf": "0.0.1",
+    "node-dxf": "*",
     "optimist": "~0.5.0"
   }
 }
