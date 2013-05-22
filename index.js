@@ -1,4 +1,4 @@
-var nodedxf = require('../node-dxf');
+var nodedxf = require('node-dxf');
 var Canvas  = require('canvas');
 var fs      = require('fs');
 
