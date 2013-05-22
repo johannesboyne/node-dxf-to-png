@@ -1,0 +1,11 @@
+usage: node-dxf-to-png OPTIONS
+
+Generate a png from a dxf. (only for polygons and text)
+
+OPTIONS
+
+--input=i    input path   (DXF file path)
+--width=w    png width              (optional; width in pixels; default = 300)
+--mapping=m  text mapping active    (optional; true | false;    default = false)
+--out=o      output path (png file) (optional; true | false;    default = 'out.png')
+

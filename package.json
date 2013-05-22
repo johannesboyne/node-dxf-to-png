@@ -1,0 +1,28 @@
+{
+  "name": "node-dxf-to-png",
+  "version": "0.0.1",
+  "description": "Transform a DXF into a PNG",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": "",
+  "devDependencies": {
+    "tape": "1.0.2"
+  },
+  "bin": {
+    "node-dxf-to-png": "bin/cmd.js"
+  },
+  "keywords": [
+    "dxf",
+    "png",
+    "preview"
+  ],
+  "author": "Johannes Boyne <johannes@boyne.de>",
+  "license": "BSD",
+  "dependencies": {
+    "canvas": "~1.0.2",
+    "node-dxf": "0.0.1",
+    "optimist": "~0.5.0"
+  }
+}
