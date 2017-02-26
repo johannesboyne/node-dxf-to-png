@@ -24,7 +24,7 @@
   "author": "Johannes Boyne <johannes@boyne.de>",
   "license": "BSD",
   "dependencies": {
-    "canvas": "~1.0.2",
+    "canvas": "~1.6.3",
     "node-dxf": "*",
     "optimist": "~0.5.0"
   }
